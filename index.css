@@ -9,7 +9,6 @@ img{
 }
 header{
     text-align: center;
-    width: 500px;
     margin: auto;
     margin-top: 100px;
 }
@@ -38,6 +37,9 @@ header p:first-of-type{
     .wrapper{
         grid-template-columns: 1fr 1fr 1fr;
         margin: 0 150px 0;
+    }
+    header{
+        width: 500px;
     }
     .card:nth-of-type(1){
         grid-column: 1/2;
